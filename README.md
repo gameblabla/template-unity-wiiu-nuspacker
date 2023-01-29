@@ -22,6 +22,7 @@ Put the code, meta, content files in another folder "inputDir" (in NUSPacker's d
 Then use my files to overwrite the two folders.
 
 Then re-pack it with NUSPacker :
+```
 java -jar NUSPacker.jar -in "inputDir" -out "outputDir" -skipXMLParsing -encryptKeyWith "wii u commom key"
-
+```
 Feel free to change the header, name... later once you confirmed it installs properly on the console.
